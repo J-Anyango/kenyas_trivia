@@ -1,0 +1,22 @@
+# Python / Django
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+db.sqlite3
+staticfiles/
+
+# Secrets - never commit these
+.env
+*.env
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter / training junk
+.ipynb_checkpoints/
+wandb/
